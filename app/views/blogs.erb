@@ -1,0 +1,4 @@
+<% @blogs.each do |blog| %>
+  <br><a href="/blogs/<%= blog.id %>/comments/"><%= blog.title %></a>
+  <%= blog.content %>
+<%  end %>
